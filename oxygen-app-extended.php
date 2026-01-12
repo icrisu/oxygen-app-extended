@@ -135,7 +135,7 @@ function on_oxygen_app_page_header(string $existingContent, string $currentLangC
         <meta property="og:title" content="Oxygen - Working and Relaxing App">
         <meta property="og:type" content="website">
         <meta property="og:url" content="<?php echo esc_url(home_url()); ?>">
-        <meta property="og:image" content="<?php echo esc_url($assetsUrl . '/og-image.jpg'); ?>">
+        <meta property="og:image" content="<?php echo esc_url($assetsUrl . '/1_og_1200x630.jpg'); ?>">
         <meta property="og:image:alt" content="Oxygen App - Productivity and Focus">
 
         <link rel="icon" href="<?php echo esc_url($assetsUrl . '/favicon.ico'); ?>" sizes="any">
