@@ -142,7 +142,7 @@ function on_oxygen_app_page_header(string $existingContent, string $currentLangC
         <link rel="icon" href="<?php echo esc_url($assetsUrl . '/icon.svg'); ?>" type="image/svg+xml">
         <link rel="apple-touch-icon" href="<?php echo esc_url($assetsUrl . '/icon.png'); ?>">
     <?php
-    return ob_get_clean();
+    echo ob_get_clean();
 }
 // uncomment this line to override or insert additional data to the header
 // add_filter('oxygen_app_page_header', 'on_oxygen_app_page_header', 20, 2);
